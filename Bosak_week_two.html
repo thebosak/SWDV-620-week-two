@@ -8,7 +8,7 @@
   <body>
     <TABLE  BORDER="5">
       <TR>
-          <TH COLSPAN="2">
+          <TH COLSPAN="4">
               <H3><BR>Brad's Favorite Books</H3>
           </TH>
       </TR>
@@ -30,5 +30,35 @@
           <TD>1847</TD>
           <TD><a href="https://en.wikipedia.org/wiki/Jane_Eyre" title="Jane Eyre">Jane Eyre Wiki</a></TD>
         </TR>
+        <TR>
+            <TD>The Grapes of Wrath</TD>
+            <TD>John Steinbeck</TD>
+            <TD>1939</TD>
+            <TD><a href="https://en.wikipedia.org/wiki/The_Grapes_of_Wrath" title="The Grapes of Wrath">The Grapes of Wrath Wiki</a></TD>
+          </TR>
+    <form>
+        <p>
+            <label for="userid">
+            <span>UserID: </span>
+            </label>
+            <input type="text" id="userid" name="user">
+        </p>
+        <p>
+            <label for="password">
+            <span>Password: </span>
+            </label>
+            <input type="text" id="password" name="pwd">
+        </p>
+        <fieldset>
+            <label for="comments">
+            <legend>Comments: </legend>
+            </label>
+            <textarea name="comments" id = "Comments" rows="3" cols="45"></textarea>
+        </fieldset>
+        <input type="reset" class="formButton" value="Clear">
+        <input type="submit" class="formButton" value="Submit">
+    </form>
+
+
   </body>
 </html>
