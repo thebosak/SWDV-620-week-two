@@ -13,7 +13,7 @@
     <table BORDER="5">
         <tr>
           <th COLSPAN="4">
-              <H3><BR>Brad's Favorite Books</H3>
+              <h3>Brad's Favorite Books</h3>
           </th>
         </tr>
         <tr>
@@ -23,53 +23,47 @@
             <th>Links</th>
         </tr>
         <tr>
-            <TD>1984</TD>
-            <TD>George Orwell</TD>
-            <TD align=center>1949</TD>
-            <TD>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td align=center>1949</td>
+            <td>
                 <a href="https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" title="1984 Wiki">1984 Wiki</a><br>
                 <a href="https://www.goodreads.com/book/show/40961427-1984" title="1984 Goodreads">1984 Goodreads</a>
-            </TD>
+            </td>
         </tr>
         <tr>
-            <TD>Jane Eyre</TD>
-            <TD>Charlotte Bronte</TD>
-            <TD align=center>1847</TD>
-            <TD>
+            <td>Jane Eyre</td>
+            <td>Charlotte Bronte</td>
+            <td align=center>1847</td>
+            <td>
                 <a href="https://en.wikipedia.org/wiki/Jane_Eyre" title="Jane Eyre Wiki">Jane Eyre Wiki</a><br>
                 <a href="https://www.goodreads.com/book/show/10210.Jane_Eyre" title="Jane Eyre Goodreads">Jane Eyre Goodreads</a>
-                </TD>
+                </td>
         </tr>
         <tr>
-            <TD>The Grapes of Wrath</TD>
-            <TD>John Steinbeck</TD>
-            <TD align=center>1939</TD>
-            <TD>
+            <td>The Grapes of Wrath</td>
+            <td>John Steinbeck</td>
+            <td align=center>1939</td>
+            <td>
                 <a href="https://en.wikipedia.org/wiki/The_Grapes_of_Wrath" title="The Grapes of Wrath Wiki">The Grapes of Wrath Wiki</a><br>
                 <a href="https://www.goodreads.com/book/show/18114322-the-grapes-of-wrath" title="The Grapes of Wrath Goodreads">The Grapes of Wrath Goodreads</a>
-            </TD>
+            </td>
         </tr>
     </table>
     <br>
     <form action="submit.php" method="post">
         <fieldset>
+            <legend>Login</legend>
         <p>
-            <label for="userid">
-            <span>UserID: </span>
-            </label>
-            <input type="text" id="userid" name="user">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
         </p>
         <p>
-            <label for="password">
-            <span>Password: </span>
-            </label>
-            <input type="password" id="password" name="pwd">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
         </p>
-        
-            <label for="comments">
-            <legend>Comments: </legend>
-            </label>
-            <textarea name="comments" id = "Comments" rows="3" cols="100" placeholder="We welcome your comments here"></textarea>
+            <legend>Comments</legend>
+            <textarea name="comments" id = "comments" rows="3" cols="100" placeholder="We welcome your comments here"></textarea>
         <input type="reset" class="formButton" value="Clear">
         <input type="submit" class="formButton" value="Submit">
       </fieldset>
